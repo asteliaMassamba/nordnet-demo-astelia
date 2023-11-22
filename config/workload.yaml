@@ -11,4 +11,4 @@ spec:
     git:
       url: https://github.com/asteliaMassamba/nordnet-demo-astelia.git
       ref:
-        branch: main
+        branch: astelia
