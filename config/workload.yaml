@@ -1,14 +1,14 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: nordnet-portal-loic
+  name: nordnet-portal-astelia
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: nordnet-portal-loic
+    app.kubernetes.io/part-of: nordnet-portal-astelia
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
   source:
     git:
-      url: https://github.com/emanzat/nordnet-demo.git
+      url: https://github.com/asteliaMassamba/nordnet-demo-astelia.git
       ref:
         branch: main
